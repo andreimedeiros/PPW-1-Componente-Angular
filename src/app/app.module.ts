@@ -13,6 +13,7 @@ import { LayoutModule } from './layout/layout.module';
 
 @NgModule({
   imports: [
+    LayoutModule,
     BrowserModule,
     AppRoutingModule,
     FormsModule,
@@ -22,7 +23,6 @@ import { LayoutModule } from './layout/layout.module';
     MatButtonModule,
     MatIconModule,
     MatCardModule,
-    LayoutModule,
   ],
   declarations: [AppComponent],
   providers: [],
